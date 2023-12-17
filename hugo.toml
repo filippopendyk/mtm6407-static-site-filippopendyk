@@ -1,0 +1,26 @@
+baseURL = 'https://filippopendyk.github.io/'
+languageCode = 'en-us'
+title = 'Running Website'
+theme = "paper"
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+
+[[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    hasChildren = true
+
+[[menu.main]]
+    parent = "posts"
+    name = "All Posts"
+    url = "/posts/"
+    weight = 10
